@@ -31,7 +31,7 @@ body{
     background-color: var(--dark-clr);
 }
 ::-webkit-scrollbar{
-    width: 16px;
+    width: 10px;
 }
 ::-webkit-scrollbar-track{
     background-color: var(--primar-clr-light);
@@ -41,10 +41,8 @@ body{
     background-image: var(--gra-primary);
     border-radius: 20px;
 }
-/* ================== Variables============= */
 
 :root{
-    /* padding */
     --p-xm: 4px;
     --p-sm:10px 14px;
     --p-md:12px 16px;
@@ -52,24 +50,21 @@ body{
     --container-pad:60px 40px;
     --section-heading-pad:44px 40px;
 
-    /* margin */
     --m-xm:4px 0;
     --m-sm:8px 0;
     --m-md:12px 0;
     --m-t-b:10px 0;
     --m-t-b-md:20px 0;
 
-    /* color */
     --primar-clr:#fff;
     --primar-clr-light:#dedede;
-    --first-gra-clr:#c32bfb;
-    --second-gra-clr:#f818d2;
+    --first-gra-clr:#fb9a2b;
+    --second-gra-clr:#fe3300;
     --dark-clr:#12011b;
     --light-bg:#ffffff19;
 
-    /* gradient clr */
     --gra-white : linear-gradient(45deb,#fff,#dedede);
-    --gra-primary:linear-gradient(45deg,#c32bfb,#f818d2);
+    --gra-primary:linear-gradient(45deg,#fb4a2b,#ff7300);
 
     /* font-size */
     --font-sm:.8rem;
@@ -533,22 +528,22 @@ footer a:hover{
 }
 @keyframes changing {
     0%{
-        background-color: #c32bfb;
+        background-color: #fb2b2b;
     }
     40%{
-        background-color: #ff21ff;
+        background-color: #ff3b21;
         opacity: .5;
     }
     60%{
         opacity: .4;
-        background-color: #cc41ff;
+        background-color: #ff4741;
     }
     80%{
         opacity: .6;
-        background-color: #b60af5;
+        background-color: #bf120c;
     }
     100%{
-        background-color: #c32bfb;
+        background-color: #e43205;
     }
 }
 
